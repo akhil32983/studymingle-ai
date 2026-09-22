@@ -8,7 +8,7 @@ type Props = {
   onClose: () => void
   onDeleted: () => void
 }
-
+#test
 export default function AccountModal({ user, onClose, onDeleted }: Props) {
   const [confirming, setConfirming] = useState(false)
   const [error, setError] = useState('')
